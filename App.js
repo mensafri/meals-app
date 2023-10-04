@@ -8,19 +8,19 @@ import MealsOverviewScreen from "./screens/MealsOverviewScreen";
 const Stack = createNativeStackNavigator();
 
 export default function App() {
-	return (
-		<>
-			<StatusBar style="dark" />
-			<NavigationContainer>
-				<Stack.Navigator>
-					<Stack.Screen name="MealsCategories" component={CategoriesScreen} />
-					<Stack.Screen name="MealsOverview" component={MealsOverviewScreen} />
-				</Stack.Navigator>
-			</NavigationContainer>
-		</>
-	);
+  return (
+    <>
+      <StatusBar style="dark" />
+      <NavigationContainer>
+        <Stack.Navigator>
+          <Stack.Screen name="MealsCategories" component={CategoriesScreen} />
+          <Stack.Screen name="MealsOverview" component={MealsOverviewScreen} />
+        </Stack.Navigator>
+      </NavigationContainer>
+    </>
+  );
 }
 
 const styles = StyleSheet.create({
-	container: {},
+  container: {},
 });
