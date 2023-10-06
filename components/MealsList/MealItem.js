@@ -7,7 +7,7 @@ import {
   Text,
   View,
 } from "react-native";
-import MealDetails from "./MealDetails";
+import MealDetails from "../MealDetails";
 
 export default function MealItem(props) {
   const { id, title, imageUrl, duration, complexity, affordability } = props;
